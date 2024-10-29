@@ -50,7 +50,8 @@ function updateCity(event) {
           <div class="time">${cityTime.format(
             "h:mm:ss [<small>]A[</small>]"
           )}<small></small></div>
-        </div>`;
+        </div>
+         <a href="index.html">Back to all cities</a>`;
 }
 let citySelectElement = document.querySelector("#city");
 citySelectElement.addEventListener("change", updateCity);
