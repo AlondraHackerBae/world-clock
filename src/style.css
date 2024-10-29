@@ -1,6 +1,47 @@
 h1 {
   text-align: center;
-  color: blue;
+  color: #000000;
+  font-size: 38px;
+}
+body {
+  background-color: #f5f1fe;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  margin: 60px auto;
+  max-width: 600px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+}
+select {
+  border-radius: 5px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted grey;
+  padding: 10px;
+}
+.date {
+  display: flex;
+  opacity: 25%;
+}
+.time {
+  font-size: 38px;
+}
+.time small {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+a {
+  color: #a181ec;
 }
 footer {
   text-align: center;
