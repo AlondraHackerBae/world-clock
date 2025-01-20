@@ -1,19 +1,19 @@
 h1 {
-  text-align: center;
   color: #000000;
   font-size: 38px;
+  text-align: center;
 }
 body {
   background-color: #f5f1fe;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .container {
+  background-color: white;
+  border-radius: 10px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
   margin: 60px auto;
   max-width: 600px;
   padding: 25px;
-  background-color: white;
-  border-radius: 10px;
 }
 select {
   border-radius: 5px;
@@ -23,9 +23,9 @@ select {
   width: 100%;
 }
 .city {
+  border-bottom: 1px dotted grey;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px dotted grey;
   padding: 10px;
 }
 .date {
@@ -41,7 +41,7 @@ select {
 }
 
 a {
-  color: #a181ec;
+  color: #4a24a2;
 }
 .alondra {
   text-decoration: none;
